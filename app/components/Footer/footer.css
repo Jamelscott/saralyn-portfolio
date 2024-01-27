@@ -1,0 +1,29 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 125px;
+}
+
+.footer-p{
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.footer-h1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 660px) {
+    .footer-container{
+        height: 100vh;
+    }
+}
